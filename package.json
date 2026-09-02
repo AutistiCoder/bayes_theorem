@@ -1,0 +1,26 @@
+{
+  "name": "bayes_theorem",
+  "version": "1.0.0",
+  "description": "demo of bayes theorem classification for spam",
+  "keywords": [
+    "bayes"
+  ],
+  "homepage": "https://github.com/AutistiCoder/bayes_theorem#readme",
+  "bugs": {
+    "url": "https://github.com/AutistiCoder/bayes_theorem/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AutistiCoder/bayes_theorem.git"
+  },
+  "license": "ISC",
+  "author": "AutistiCoder",
+  "type": "esm",
+  "main": "bayes.ts",
+  "scripts": {
+    "test": "npx tsx bayes.ts"
+  },
+  "dependencies": {
+    "tsx": "^4.23.13"
+  }
+}
